@@ -8,5 +8,6 @@ setup(
     entry_points={
         'console_scripts': ['demult=demultiplex:demultiplex']
     },
+    install_requires=['click'],
     zip_safe=False,
 )
