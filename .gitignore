@@ -1,0 +1,15 @@
+venv*
+*dist/*
+*build/*
+*.pyc
+.*
+!.gitignore
+
+# my ide related stuff
+.project
+.pydevproject
+
+# build stuff
+.cache/*
+*.egg-info/*
+ 
